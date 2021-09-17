@@ -1,8 +1,6 @@
 # c950 Package Routing Program
 Created for WGU C950 Data Structures and Algorithms II
 
-Requirements for this project:
-
 ## SCENARIO
 The Western Governors University Parcel Service (WGUPS) needs to determine an efficient route and delivery distribution for their Daily Local Deliveries (DLD) because packages are not currently being consistently delivered by their promised deadline. The Salt Lake City DLD route has three trucks, two drivers, and an average of 40 packages to deliver each day. Each package has specific criteria and delivery requirements.
 
@@ -35,7 +33,7 @@ B.  Write an overview of your program, in which you do the following:
 
   1.  Explain the algorithm’s logic using pseudocode.
 
-Note: You may refer to the attached “Sample Core Algorithm Overview” to complete part B1.
+    Note: You may refer to the attached “Sample Core Algorithm Overview” to complete part B1.
 
   2.  Describe the programming environment you used to create the Python application.
 
@@ -46,7 +44,6 @@ Note: You may refer to the attached “Sample Core Algorithm Overview” to comp
   5.  Discuss why the software is efficient and easy to maintain.
 
   6.  Discuss the strengths and weaknesses of the self-adjusting data structures (e.g., the hash table).
-
 
 
 C.  Write an original program to deliver all the packages, meeting all requirements, using the attached supporting documents “Salt Lake City Downtown Map,” “WGUPS Distance Table,” and the “WGUPS Package File.”
@@ -61,7 +58,7 @@ D.  Identify a self-adjusting data structure, such as a hash table, that can be 
 
   1.  Explain how your data structure accounts for the relationship between the data points you are storing.
 
-Note: Use only appropriate built-in data structures, except dictionaries. You must design, write, implement, and debug all code that you turn in for this assessment. Code downloaded from the Internet or acquired from another student or any other source may not be submitted and will result in automatic failure of this assessment.
+    Note: Use only appropriate built-in data structures, except dictionaries. You must design, write, implement, and debug all code that you turn in for this assessment. Code downloaded from the Internet or acquired from another student or any other source may not be submitted and will result in automatic failure of this assessment.
 
 
 
@@ -76,7 +73,6 @@ E.  Develop a hash table, without using any additional libraries or classes, tha
 * delivery status (e.g., delivered, en route)
 
 
-
 F.  Develop a look-up function that takes the following components as input and returns the corresponding data elements:
 
 * package ID number
@@ -86,7 +82,6 @@ F.  Develop a look-up function that takes the following components as input and 
 * delivery zip code
 * package weight
 * delivery status (i.e., “at the hub,” “en route,” or “delivered”), including the delivery time
-
 
 
 G.  Provide an interface for the user to view the status and info (as listed in part F) of any package at any time, and the total mileage traveled by all trucks. (The delivery status should report the package as at the hub, en route, or delivered. Delivery status must include the time.)
@@ -102,7 +97,6 @@ G.  Provide an interface for the user to view the status and info (as listed in 
 H.  Provide a screenshot or screenshots showing successful completion of the code, free from runtime errors or warnings, that includes the total mileage traveled by all trucks.
 
 
-
 I.  Justify the core algorithm you identified in part A and used in the solution by doing the following:
 
   1.  Describe at least two strengths of the algorithm used in the solution.
@@ -111,7 +105,7 @@ I.  Justify the core algorithm you identified in part A and used in the solution
 
   3.  Identify two other named algorithms, different from the algorithm implemented in the solution, that would meet the requirements in the scenario.
 
-    a.  Describe how each algorithm identified in part I3 is different from the algorithm used in the solution.
+   a.  Describe how each algorithm identified in part I3 is different from the algorithm used in the solution.
 
 
 
@@ -121,15 +115,15 @@ K.  Justify the data structure you identified in part D by doing the following:
 
   1.  Verify that the data structure used in the solution meets all requirements in the scenario.
 
-    a.  Explain how the time needed to complete the look-up function is affected by changes in the number of packages to be delivered.
+   a.  Explain how the time needed to complete the look-up function is affected by changes in the number of packages to be delivered.
 
-    b.  Explain how the data structure space usage is affected by changes in the number of packages to be delivered.
+   b.  Explain how the data structure space usage is affected by changes in the number of packages to be delivered.
 
-    c.  Describe how changes to the number of trucks or the number of cities would affect the look-up time and the space usage of the data structure.
+   c.  Describe how changes to the number of trucks or the number of cities would affect the look-up time and the space usage of the data structure.
 
   2.  Identify two other data structures that could meet the same requirements in the scenario.
 
-    a.  Describe how each data structure identified in part K2 is different from the data structure used in the solution.
+   a.  Describe how each data structure identified in part K2 is different from the data structure used in the solution.
 
 L.  Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized.
 
